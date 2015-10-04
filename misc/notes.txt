@@ -1,0 +1,24 @@
+Sherman county Texas
+
+
+County: Sherman County, Texas
+Latitude/Longitude (Centroid):  36.2777097088892, -101.893478726306
+Lat/Lon Northwest:  36.500684, -102.163303
+Lat/Lon Southeast:  36.055131, -101.623466
+
+Lat/Lon Northeast:  36.500684, -101.623466
+Lat/Lon Southwest:  36.055131, -101.623466
+
+Area: 923.2 sq. miles
+Area - Land only: 923.0 sq. miles (100%)
+Area - Water only:  0.2 sq. miles (0%)
+Population (2010 U.S. Census):  3,034
+Housing Units (2010 U.S. Census): 1,252
+Cities and places in Sherman County, TX:  Cactus, Stratford, Texhoma, Texhoma
+
+
+Yelp
+
+bounds=sw_latitude,sw_longitude|ne_latitude,ne_longitude
+
+bounds=36.055131,-101.623466|36.500684-101.623466
