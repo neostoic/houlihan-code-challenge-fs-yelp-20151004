@@ -9,6 +9,18 @@
     "thisServer": {
       "hostname": "localhost",
       "port": 3000
+    },
+    "foursquare": {
+      "clientId": "R4B2LGW5ZYHKNEUUNOL4DF4AO2U0AZT0YVL55AFYIHPZ0TSY",
+      "clientSecret": "5F4N2QWNMYCC3MHRFCPU1U4RKKIGPWFRMIGPZGHRLQ2XJYN5",
+      "apiVersion": 20151004,
+      "oauthCallbackPath": "/fsredirect",
+    },
+    "yelp": {
+      "consumerKey": "OlgdhV7JKNKu-n4jIKEdgg",
+      "consumerSecret": "Q5F9g4hJj234BBTvBAx__2qVsMk",
+      "token": "DvQaXqwnfwf4M5oTCPxVfUrNzSN2MXxe",
+      "tokenSecret": "iAX2yyO5jdF7rzINcWxP5E7aMyE"
     }
   }
 }
