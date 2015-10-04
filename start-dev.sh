@@ -1,0 +1,1 @@
+LOG_LEVEL=trace NODE_ENV=development nodemon app.js | bunyan
