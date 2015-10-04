@@ -24,8 +24,15 @@ process.on('uncaughtException', function(err){
 
 var conf = require('./config/config.js');
 
-
+var path = requie('path');
 var url = require('url');
+
+
+var koa = require('koa');
+var app = koa();
+
+
+// Mongoose
 
 
 // 'mongodb://localhost:3000/houlihanYelpFs/'
@@ -36,8 +43,6 @@ var mongoConnUrl = url.format({
   port: conf.mongo.port,
   pathname: conf.mongo.dbName
 });
-
-
 
 var mongoose = require('mongoose');
 
@@ -57,22 +62,49 @@ mongoose.connection.on('error', function (err){
 
 
 
+// Static
+
+var serve = require('koa-static');
+
+app.use(serve(path.join(__dirname, 'public')));
 
 
 
 
-var koa = require('koa');
+// Passport
+
+// OAuth requires the use of req.query.  But this is koa, so fix it with this:
+app.use( function* (next) {
+  this.req.query = this.query;
+  yield next;
+});
 
 
 
 
+var bodyParser = require('koa-bodyparser');
+app.use(bodyParser());
+
+var session = require('koa-session');
+app.keys = ['keyboard cat is the value used in all the express session examples and keyboard cat reminds me of peter'];
+app.use(session(app));
+
+var passport = require('koa-passport');
+app.use(passport.initialize());
+app.use(passport.session());
+
+require('./config/passport.js');
+
+
+
+var port = process.env.PORT || conf.thisServer.port;
 
 
 
 require('../koa.js')(app);
 
 
-app.listen(conf.thisServer.port, function (err){
+app.listen(port, function (err){
   if(err){
     log.fatal(err, 'Error starting server on port %s', conf.thisServer.port);
     return process.exit(13);
