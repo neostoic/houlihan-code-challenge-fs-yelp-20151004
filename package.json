@@ -2,6 +2,7 @@
   "author": "Aaron Houlihan",
   "description": "Code Challenge, Foursquare Yelp, 2015 10 04",
   "dependencies": {
+    "bunyan": "1.5.1",
     "koa": "1.0.0"
   }
 }
