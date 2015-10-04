@@ -1,0 +1,14 @@
+{
+  "production": {
+    "thisServer": {
+      "hostname": "hart1.houli.io",
+      "port": 80
+    }
+  },
+  "development": {
+    "thisServer": {
+      "hostname": "localhost",
+      "port": 3000
+    }
+  }
+}
