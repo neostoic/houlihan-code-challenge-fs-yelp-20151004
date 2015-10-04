@@ -1,4 +1,6 @@
 var request = require('co-request');
+var url = require('url');
+
 
 module.exports.userlessVenueSearch = function* (sw, ne) {
   console.log('START userlessVenueSearch');
@@ -22,7 +24,7 @@ module.exports.userlessVenueSearch = function* (sw, ne) {
       m: 'foursquare',
       limit: 50,
       intent: 'browse',
-      categoryId: '4d4b7105d754a06374d81259' //Foursquare "Food" category
+      categoryId: '4d4b7105d754a06374d81259', //4d4b7105d754a06374d81259 = Foursquare "Food" category
       sw: sw,
       ne: ne
     }
