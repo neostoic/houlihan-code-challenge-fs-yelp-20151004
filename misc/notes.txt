@@ -21,4 +21,4 @@ Yelp
 
 bounds=sw_latitude,sw_longitude|ne_latitude,ne_longitude
 
-bounds=36.055131,-101.623466|36.500684-101.623466
+bounds=36.055131,-102.163303|36.500684,-101.623466
