@@ -11,6 +11,7 @@
     "mongoose": "4.1.9",
     "node-foursquare": "0.3.0",
     "passport-foursquare": "1.0.0",
+    "verror": "1.6.0",
     "yelp": "0.2.0"
   }
 }
