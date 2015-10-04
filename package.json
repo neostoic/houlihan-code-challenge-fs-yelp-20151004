@@ -3,6 +3,7 @@
   "description": "Code Challenge, Foursquare Yelp, 2015 10 04",
   "dependencies": {
     "bunyan": "1.5.1",
+    "clj-fuzzy": "0.3.1",
     "co-request": "1.0.0",
     "koa": "1.0.0",
     "koa-bodyparser": "2.0.1",
