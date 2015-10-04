@@ -1,8 +1,9 @@
 var request = require('co-request');
 var url = require('url');
 
+var counties = require('../config/counties.js');
 
-module.exports.userlessVenueSearch = function* (sw, ne) {
+module.exports.userlessVenueSearch = function* (county) {
   console.log('START userlessVenueSearch');
   // Foursquare food category
   // "id": "4d4b7105d754a06374d81259",
@@ -10,6 +11,16 @@ module.exports.userlessVenueSearch = function* (sw, ne) {
   // "pluralName": "Food",
   // "shortName": "Food",
 
+  var countyCoords = counties.getCoordinates(county);
+
+  // Shermain county, Texas
+  // sw lat   , sw lng    | ne lat  , ne lng
+  // 36.055131,-102.163303|36.500684,-101.623466
+  // var sw = '36.055131,-102.163303'
+  // var ne = '36.500684,-101.623466'
+
+  var sw = countyCoords.swLat + ',' + countyCoords.swLng
+  var ne = countyCoords.neLat + ',' + countyCoords.neLng
 
   var reqUrl = url.format({
     protocol: 'https',

@@ -24,3 +24,23 @@ bounds=sw_latitude,sw_longitude|ne_latitude,ne_longitude
 bounds=36.055131,-102.163303|36.500684,-101.623466
 
 
+
+
+
+
+
+County: Ochiltree County, Texas
+Latitude/Longitude (Centroid):  36.2784137139308, -100.815653969424
+Lat/Lon Northwest:  36.49994, -101.085745
+Lat/Lon Southeast:  36.056536, -100.545979
+Area: 918.2 sq. miles
+Area - Land only: 917.7 sq. miles (100%)
+Area - Water only:  0.5 sq. miles (0%)
+Population (2010 U.S. Census):  10,223
+Housing Units (2010 U.S. Census): 4,062
+Cities and places in Ochiltree County, TX:  Booker, Perryton
+
+
+bounds=sw_latitude,sw_longitude|ne_latitude,ne_longitude
+
+bounds=36.056536,-101.085745|36.49994,-100.545979
