@@ -25,6 +25,41 @@ process.on('uncaughtException', function(err){
 var conf = require('./config/config.js');
 
 
+var url = require('url');
+
+
+// 'mongodb://localhost:3000/houlihanYelpFs/'
+var mongoConnUrl = url.format({
+  protocol: 'mongodb',
+  slashes: true,
+  hostname: conf.mongo.hostname,
+  port: conf.mongo.port,
+  pathname: conf.mongo.dbName
+});
+
+
+
+var mongoose = require('mongoose');
+
+mongoose.connect(mongoConnUrl);
+
+mongoose.connection.once('open', function (err){
+  if (err) {
+    log.fatal(err, 'Connection open to MongoDB %s, but there was an err:');
+    return process.exit(13);
+  }
+  console.log('Connection open to MongoDB %s', mongoConnUrl);
+});
+
+mongoose.connection.on('error', function (err){
+  log.error(err, 'MongoDB on error event. err is:');
+});
+
+
+
+
+
+
 
 var koa = require('koa');
 

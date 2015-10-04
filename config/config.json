@@ -21,6 +21,11 @@
       "consumerSecret": "Q5F9g4hJj234BBTvBAx__2qVsMk",
       "token": "DvQaXqwnfwf4M5oTCPxVfUrNzSN2MXxe",
       "tokenSecret": "iAX2yyO5jdF7rzINcWxP5E7aMyE"
+    },
+    "mongo": {
+      "hostname": "localhost",
+      "port": 3000,
+      "dbName": "houlihanFsYelp"
     }
   }
 }
