@@ -8,6 +8,7 @@
     "koa-router": "5.2.3",
     "koa-passport": "1.2.0",
     "lodash": "3.10.1",
+    "mongoose": "4.1.9",
     "node-foursquare": "0.3.0",
     "passport-foursquare": "1.0.0",
     "yelp": "0.2.0"
