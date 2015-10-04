@@ -1,0 +1,7 @@
+{
+  "author": "Aaron Houlihan",
+  "description": "Code Challenge, Foursquare Yelp, 2015 10 04",
+  "dependencies": {
+    "koa": "1.0.0"
+  }
+}
