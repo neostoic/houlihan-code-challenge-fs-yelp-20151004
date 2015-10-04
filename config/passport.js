@@ -2,6 +2,7 @@ var conf = require('./config.js');
 
 var passport = require('koa-passport');
 var FoursqaureStrategy = require('passport-foursquare').Strategy;
+var verror = require('verror');
 
 var foursquare = require('../lib/foursquare.js');
 
@@ -28,7 +29,7 @@ passport.deserializeUser(function (sessionUserId, done){
 passport.use(new FoursqaureStrategy({
     clientID: conf.foursquare.clientId,
     clientSecret: conf.foursquare.clientSecret,
-    callbackUrl: foursquare.oauthRedirectUrl;
+    callbackUrl: foursquare.oauthRedirectUrl
   },
   function (accessToken, refreshToken, profile, done) {
 

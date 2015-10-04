@@ -1,6 +1,6 @@
 'use strict'
 
-var log = require('../utilities/logger.js');
+var log = require('./utilities/logger.js');
 
 process.on('exit', function(){
   //Use console.log because the node.js documentation says everything in this
@@ -24,10 +24,10 @@ process.on('uncaughtException', function(err){
 
 var conf = require('./config/config.js');
 
-var path = requie('path');
+var path = require('path');
 var url = require('url');
 
-
+var mongoose = require('mongoose');
 var koa = require('koa');
 var app = koa();
 
@@ -44,7 +44,7 @@ var mongoConnUrl = url.format({
   pathname: conf.mongo.dbName
 });
 
-var mongoose = require('mongoose');
+log.trace({mongoConnUrl: mongoConnUrl});
 
 mongoose.connect(mongoConnUrl);
 
@@ -70,6 +70,15 @@ app.use(serve(path.join(__dirname, 'public')));
 
 
 
+// Body Parser
+var bodyParser = require('koa-bodyparser');
+app.use(bodyParser());
+
+// Session
+
+var session = require('koa-session');
+app.keys = ['keyboard cat is the value used in all the express session examples and keyboard cat reminds me of peter'];
+app.use(session(app));
 
 // Passport
 
@@ -79,21 +88,13 @@ app.use( function* (next) {
   yield next;
 });
 
-
-
-
-var bodyParser = require('koa-bodyparser');
-app.use(bodyParser());
-
-var session = require('koa-session');
-app.keys = ['keyboard cat is the value used in all the express session examples and keyboard cat reminds me of peter'];
-app.use(session(app));
+require('./config/passport.js');
 
 var passport = require('koa-passport');
 app.use(passport.initialize());
 app.use(passport.session());
 
-require('./config/passport.js');
+
 
 
 
@@ -101,7 +102,7 @@ var port = process.env.PORT || conf.thisServer.port;
 
 
 
-require('../koa.js')(app);
+require('./koa.js')(app);
 
 
 app.listen(port, function (err){
