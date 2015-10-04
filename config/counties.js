@@ -1,16 +1,16 @@
 var log = require('../utilities/logger.js');
 
-var counties = require('./config.json');
+var counties = require('./counties.json');
 
-module.exports.getCoordinates(county) = function(county) {
+module.exports.getCoordinates = function(county) {
 
-  var county = counties[county];
+  var countyCoords = counties[county];
 
-  if(!county){
-    log.warn('County %s is not a valid', county);
+  if(!countyCoords){
+    log.warn('County %s is not valid', county);
     return null;
   };
 
-  return county;
+  return countyCoords;
 
 };

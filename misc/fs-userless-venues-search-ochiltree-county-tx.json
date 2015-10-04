@@ -1,0 +1,1718 @@
+{
+  "meta": {
+    "code": 200,
+    "requestId": "5611a82e498e14bf6fd1f4d0"
+  },
+  "response": {
+    "venues": [
+      {
+        "id": "4c4bbb6d46240f47ff98b9f3",
+        "name": "SONIC Drive In",
+        "location": {
+          "address": "718 S Main St",
+          "lat": 36.39264142591811,
+          "lng": -100.80304895407069,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "718 S Main St",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16e941735",
+            "name": "Fast Food Restaurant",
+            "pluralName": "Fast Food Restaurants",
+            "shortName": "Fast Food",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/fastfood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 77,
+          "usersCount": 36,
+          "tipCount": 0
+        },
+        "hasMenu": true,
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "storeId": "2705",
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4c27e124d26eb713c52314d1",
+        "name": "Margarita's Steakhouse",
+        "location": {
+          "address": "3507 S Main St",
+          "lat": 36.364521,
+          "lng": -100.801911,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "3507 S Main St",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1cc941735",
+            "name": "Steakhouse",
+            "pluralName": "Steakhouses",
+            "shortName": "Steakhouse",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 32,
+          "usersCount": 30,
+          "tipCount": 0
+        },
+        "hasMenu": true,
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "52320a3a498e00785c48675d",
+        "name": "Dairy Queen",
+        "location": {
+          "lat": 36.38972238415001,
+          "lng": -100.80325279891922,
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "Perryton, TX",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16e941735",
+            "name": "Fast Food Restaurant",
+            "pluralName": "Fast Food Restaurants",
+            "shortName": "Fast Food",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/fastfood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 6,
+          "usersCount": 5,
+          "tipCount": 1
+        },
+        "hasMenu": true,
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4e7f6c2193ad5ce35fefe727",
+        "name": "The Bakery",
+        "location": {
+          "lat": 36.454389,
+          "lng": -100.551381,
+          "cc": "US",
+          "city": "Booker",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "Booker, TX",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16d941735",
+            "name": "Café",
+            "pluralName": "Cafés",
+            "shortName": "Café",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/cafe_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 1,
+          "usersCount": 1,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4e4e3809bd4101d0d7a51c36",
+        "name": "Daylight Donuts",
+        "location": {
+          "address": "721 S Main St",
+          "lat": 36.393085,
+          "lng": -100.802664,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "721 S Main St",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d148941735",
+            "name": "Donut Shop",
+            "pluralName": "Donut Shops",
+            "shortName": "Donuts",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/donuts_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 0,
+          "usersCount": 0,
+          "tipCount": 0
+        },
+        "hasMenu": true,
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4f32af6119836c91c7efb76a",
+        "name": "SUBWAY",
+        "location": {
+          "address": "1501 S Main St",
+          "lat": 36.39122,
+          "lng": -100.80128,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "1501 S Main St",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1c5941735",
+            "name": "Sandwich Place",
+            "pluralName": "Sandwich Places",
+            "shortName": "Sandwiches",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/deli_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 0,
+          "usersCount": 0,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4c8296fde602b1f779fb9d7a",
+        "name": "Dixie Dog",
+        "location": {
+          "address": "1610 S Main St",
+          "lat": 36.38372762,
+          "lng": -100.803183,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "1610 S Main St",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16c941735",
+            "name": "Burger Joint",
+            "pluralName": "Burger Joints",
+            "shortName": "Burgers",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/burger_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 33,
+          "usersCount": 22,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4f320c5d19833175d60b5702",
+        "name": "Taste of China",
+        "location": {
+          "address": "1222 S Main St",
+          "lat": 36.387992,
+          "lng": -100.80272,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "1222 S Main St",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d145941735",
+            "name": "Chinese Restaurant",
+            "pluralName": "Chinese Restaurants",
+            "shortName": "Chinese",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/asian_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 31,
+          "usersCount": 31,
+          "tipCount": 0
+        },
+        "hasMenu": true,
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4f3256fa19836c91c7ce1044",
+        "name": "Tangs Restaurant",
+        "location": {
+          "address": "2802 S Main St",
+          "lat": 36.372108,
+          "lng": -100.80264,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "2802 S Main St",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4d4b7105d754a06374d81259",
+            "name": "Food",
+            "pluralName": "Food",
+            "shortName": "Food",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 0,
+          "usersCount": 0,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4c60007e3a3703bbbc19e406",
+        "name": "Pizza Hut",
+        "location": {
+          "address": "1902 S Main St",
+          "lat": 36.38117121,
+          "lng": -100.8031884,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "1902 S Main St",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1ca941735",
+            "name": "Pizza Place",
+            "pluralName": "Pizza Places",
+            "shortName": "Pizza",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/pizza_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": true,
+        "stats": {
+          "checkinsCount": 51,
+          "usersCount": 19,
+          "tipCount": 0
+        },
+        "hasMenu": true,
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "storeId": "24288",
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "502abd94e4b0735c9d07cae7",
+        "name": "3 Sisters Frozen Yogurt",
+        "location": {
+          "lat": 36.39851013660998,
+          "lng": -100.80231621811546,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "512e7cae91d4cbb4e5efe0af",
+            "name": "Frozen Yogurt",
+            "pluralName": "Frozen Yogurt",
+            "shortName": "Yogurt",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/frozenyogurt_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 49,
+          "usersCount": 8,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4c68293ae1da1b8df8699fc3",
+        "name": "The Little Bakery",
+        "location": {
+          "address": "1192 S. Main St",
+          "lat": 36.388269,
+          "lng": -100.802646,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "1192 S. Main St",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1c4941735",
+            "name": "Restaurant",
+            "pluralName": "Restaurants",
+            "shortName": "Restaurant",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 1,
+          "usersCount": 1,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4e8721aff5b9caaae4cc27d8",
+        "name": "La Casita Restaurant",
+        "location": {
+          "address": "222 SW 3rd Ave",
+          "lat": 36.397640228271484,
+          "lng": -100.80655670166016,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "222 SW 3rd Ave",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1c1941735",
+            "name": "Mexican Restaurant",
+            "pluralName": "Mexican Restaurants",
+            "shortName": "Mexican",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/mexican_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 10,
+          "usersCount": 8,
+          "tipCount": 1
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4f32356319836c91c7c0daff",
+        "name": "Carniceria Flores",
+        "location": {
+          "address": "114 E Brillhart Ave",
+          "lat": 36.400974,
+          "lng": -100.800179,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "114 E Brillhart Ave",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4d4b7105d754a06374d81259",
+            "name": "Food",
+            "pluralName": "Food",
+            "shortName": "Food",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 0,
+          "usersCount": 0,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "51bb8696498eba02a481edbc",
+        "name": "Jimmy's Tacos",
+        "location": {
+          "lat": 36.388626,
+          "lng": -100.802925,
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "Perryton, TX",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1cb941735",
+            "name": "Food Truck",
+            "pluralName": "Food Trucks",
+            "shortName": "Food Truck",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/streetfood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 5,
+          "usersCount": 2,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4f322c7819836c91c7bd6baf",
+        "name": "Taqueria El General",
+        "location": {
+          "address": "422 SW 1st Ave",
+          "lat": 36.3997,
+          "lng": -100.809111,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "422 SW 1st Ave",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4d4b7105d754a06374d81259",
+            "name": "Food",
+            "pluralName": "Food",
+            "shortName": "Food",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 0,
+          "usersCount": 0,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4f32698819836c91c7d54af5",
+        "name": "KFC",
+        "location": {
+          "address": "1222 S Main St",
+          "lat": 36.387993,
+          "lng": -100.802645,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "1222 S Main St",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16e941735",
+            "name": "Fast Food Restaurant",
+            "pluralName": "Fast Food Restaurants",
+            "shortName": "Fast Food",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/fastfood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 0,
+          "usersCount": 0,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4d1e31c02eb1f04d9d95ddc1",
+        "name": "SUBWAY",
+        "location": {
+          "address": "2602 S Main St",
+          "lat": 36.37459978333333,
+          "lng": -100.80302228333333,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "2602 S Main St",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1c5941735",
+            "name": "Sandwich Place",
+            "pluralName": "Sandwich Places",
+            "shortName": "Sandwiches",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/deli_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 8,
+          "usersCount": 8,
+          "tipCount": 0
+        },
+        "hasMenu": true,
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "51096a9ce4b082fecce12816",
+        "name": "The Rib Joint",
+        "location": {
+          "address": "Main",
+          "lat": 36.38110457729845,
+          "lng": -100.8069771768839,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "Main",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1df931735",
+            "name": "BBQ Joint",
+            "pluralName": "BBQ Joints",
+            "shortName": "BBQ",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bbqalt_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 2,
+          "usersCount": 2,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4f44bb6b19836ed0019620f9",
+        "name": "Lone Star Grill",
+        "location": {
+          "address": "16 SE 15th Ave",
+          "lat": 36.38522,
+          "lng": -100.802601,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "16 SE 15th Ave",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4d4b7105d754a06374d81259",
+            "name": "Food",
+            "pluralName": "Food",
+            "shortName": "Food",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 0,
+          "usersCount": 0,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4f32649b19836c91c7d3635a",
+        "name": "We Are Chicken",
+        "location": {
+          "address": "1122 S Main St",
+          "lat": 36.388997,
+          "lng": -100.802709,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "1122 S Main St",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4d4b7105d754a06374d81259",
+            "name": "Food",
+            "pluralName": "Food",
+            "shortName": "Food",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 0,
+          "usersCount": 0,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "51eae50d498e1d1fa108dd71",
+        "name": "Vasolotes",
+        "location": {
+          "lat": 36.389006,
+          "lng": -100.80298,
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "Perryton, TX",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1cb941735",
+            "name": "Food Truck",
+            "pluralName": "Food Trucks",
+            "shortName": "Food Truck",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/streetfood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 1,
+          "usersCount": 1,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4c27e0bad26eb713b82314d1",
+        "name": "Money's  Bar-B-Que & Steakhouse",
+        "location": {
+          "address": "14 SE 3rd Ave",
+          "lat": 36.397454,
+          "lng": -100.801947,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "14 SE 3rd Ave",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1df931735",
+            "name": "BBQ Joint",
+            "pluralName": "BBQ Joints",
+            "shortName": "BBQ",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/bbqalt_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 12,
+          "usersCount": 11,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4f326c4519836c91c7d657cc",
+        "name": "Abuelas Grind",
+        "location": {
+          "address": "322 S Main St",
+          "lat": 36.397248,
+          "lng": -100.8027,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "322 S Main St",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4d4b7105d754a06374d81259",
+            "name": "Food",
+            "pluralName": "Food",
+            "shortName": "Food",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 0,
+          "usersCount": 0,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4f44b01719836ed00195d670",
+        "name": "Hansen Dairy",
+        "location": {
+          "address": "12772 County Road 10",
+          "lat": 36.247349,
+          "lng": -100.910191,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "12772 County Road 10",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4d4b7105d754a06374d81259",
+            "name": "Food",
+            "pluralName": "Food",
+            "shortName": "Food",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 0,
+          "usersCount": 0,
+          "tipCount": 0
+        },
+        "hasMenu": true,
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4c49cf69a3ace21eced91d3c",
+        "name": "McDonald's",
+        "location": {
+          "address": "1109 S Main St",
+          "lat": 36.38854265213013,
+          "lng": -100.80237150192261,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "1109 S Main St",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16e941735",
+            "name": "Fast Food Restaurant",
+            "pluralName": "Fast Food Restaurants",
+            "shortName": "Fast Food",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/fastfood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 89,
+          "usersCount": 41,
+          "tipCount": 2
+        },
+        "hasMenu": true,
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "storeId": "",
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4d06c51b7d9ba35d06ec7123",
+        "name": "Chihua's",
+        "location": {
+          "lat": 36.384769,
+          "lng": -100.802944,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1c1941735",
+            "name": "Mexican Restaurant",
+            "pluralName": "Mexican Restaurants",
+            "shortName": "Mexican",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/mexican_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 45,
+          "usersCount": 29,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "51ba9db1498e81f4736fdac4",
+        "name": "Hydro Snow",
+        "location": {
+          "crossStreet": "15th Ave. & Main St.",
+          "lat": 36.385263,
+          "lng": -100.802884,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "15th Ave. & Main St.",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1cb941735",
+            "name": "Food Truck",
+            "pluralName": "Food Trucks",
+            "shortName": "Food Truck",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/streetfood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 3,
+          "usersCount": 2,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "525fdc6d498ed64695c2567f",
+        "name": "Turtles Place",
+        "location": {
+          "lat": 36.39650829657472,
+          "lng": -100.80326381757222,
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "Perryton, TX",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1c1941735",
+            "name": "Mexican Restaurant",
+            "pluralName": "Mexican Restaurants",
+            "shortName": "Mexican",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/mexican_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 6,
+          "usersCount": 1,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4f4453ee19836ed001937cfe",
+        "name": "Longhorn Steakhouse",
+        "location": {
+          "address": "3507 S Main St",
+          "lat": 36.368431,
+          "lng": -100.802582,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "3507 S Main St",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1cc941735",
+            "name": "Steakhouse",
+            "pluralName": "Steakhouses",
+            "shortName": "Steakhouse",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 0,
+          "usersCount": 0,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4f3257e919836c91c7ce6c85",
+        "name": "La Amistad Restaurant",
+        "location": {
+          "address": "1214 S Main St",
+          "lat": 36.38807,
+          "lng": -100.802721,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "1214 S Main St",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4d4b7105d754a06374d81259",
+            "name": "Food",
+            "pluralName": "Food",
+            "shortName": "Food",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/default_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 3,
+          "usersCount": 1,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4f321a6619836c91c7b62771",
+        "name": "Hardees",
+        "location": {
+          "address": "1902 S Main St",
+          "lat": 36.381386,
+          "lng": -100.802613,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "1902 S Main St",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d16e941735",
+            "name": "Fast Food Restaurant",
+            "pluralName": "Fast Food Restaurants",
+            "shortName": "Fast Food",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/fastfood_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 0,
+          "usersCount": 0,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4e6637812271573ad9364590",
+        "name": "Smokehouse",
+        "location": {
+          "address": "210 SE 24th Ave",
+          "lat": 36.37651610800932,
+          "lng": -100.80120335183169,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "210 SE 24th Ave",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1cc941735",
+            "name": "Steakhouse",
+            "pluralName": "Steakhouses",
+            "shortName": "Steakhouse",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/steakhouse_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 43,
+          "usersCount": 26,
+          "tipCount": 2
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4efa1e4fb63446a50b13b807",
+        "name": "Country Gorditas",
+        "location": {
+          "address": "825 E Brillhart Ave",
+          "lat": 36.4051196060312,
+          "lng": -100.79204198619836,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "825 E Brillhart Ave",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d1c1941735",
+            "name": "Mexican Restaurant",
+            "pluralName": "Mexican Restaurants",
+            "shortName": "Mexican",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/mexican_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 4,
+          "usersCount": 1,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      },
+      {
+        "id": "4d2cf54e79bc721e3431e7ee",
+        "name": "China Buffet",
+        "location": {
+          "address": "2802 S Main St",
+          "lat": 36.37268964628203,
+          "lng": -100.80284510966239,
+          "postalCode": "79070",
+          "cc": "US",
+          "city": "Perryton",
+          "state": "TX",
+          "country": "United States",
+          "formattedAddress": [
+            "2802 S Main St",
+            "Perryton, TX 79070",
+            "United States"
+          ]
+        },
+        "categories": [
+          {
+            "id": "4bf58dd8d48988d145941735",
+            "name": "Chinese Restaurant",
+            "pluralName": "Chinese Restaurants",
+            "shortName": "Chinese",
+            "icon": {
+              "prefix": "https://ss3.4sqi.net/img/categories_v2/food/asian_",
+              "suffix": ".png"
+            },
+            "primary": true
+          }
+        ],
+        "verified": false,
+        "stats": {
+          "checkinsCount": 11,
+          "usersCount": 8,
+          "tipCount": 0
+        },
+        "allowMenuUrlEdit": true,
+        "specials": {
+          "count": 0,
+          "items": []
+        },
+        "hereNow": {
+          "count": 0,
+          "summary": "Nobody here",
+          "groups": []
+        },
+        "referralId": "v-1443997742"
+      }
+    ]
+  }
+}

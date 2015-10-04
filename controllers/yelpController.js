@@ -30,25 +30,27 @@ yc.yelpSearch = function (searchParams) {
 
 
 yc.mineYelpBusinesses = function (searchParams, cb){
+
   console.log('START mineYelpBusinesses');
   log.debug('searchParams.offset is: %d', searchParams.offset);
   log.debug('searchParams.limit is: %d', searchParams.limit);
+
   yc.yelpSearch(searchParams)
   .then(function (apiResult){
+
     console.log('START yc.yelpSearch CB');
     log.debug('apiResult.total is %d', apiResult.total);
     Promise.all(apiResult.businesses.map(createYelpBusiness))
-
     .then(function (newYelpBusinesses) {
 
-      if (searchParams.offset + searchParams.limit < /*searchResults.total*/ 7 ) { //!!Revisit:  Fix 7
+      if (searchParams.offset + searchParams.limit < /*apiResult.total*/ 7 ) { //!!Revisit:  Fix 7
         searchParams.offset += searchParams.limit;
         console.log('CONTINUE RECURSION');
         //Use setImmeidate so that if too many recursions are necesary, the call stack wont overflow
         setImmediate(yc.mineYelpBusinesses, searchParams, cb);
       } else {
         console.log('DONE WITH RECURSION');
-        cb(null, 'Yelp business data mine complete');
+        cb(null, apiResult);
       }
 
     });

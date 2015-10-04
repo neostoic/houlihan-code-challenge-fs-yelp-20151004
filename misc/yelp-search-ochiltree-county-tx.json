@@ -1,0 +1,465 @@
+{
+  "region": {
+    "span": {
+      "latitude_delta": 0.443404000000001,
+      "longitude_delta": 0.5397660000000002
+    },
+    "center": {
+      "latitude": 36.278238,
+      "longitude": -100.81586200000001
+    }
+  },
+  "total": 10,
+  "businesses": [
+    {
+      "is_claimed": false,
+      "rating": 3.5,
+      "mobile_url": "http://m.yelp.com/biz/smoke-house-restaurant-perryton",
+      "rating_img_url": "http://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+      "review_count": 3,
+      "name": "Smoke House Restaurant",
+      "rating_img_url_small": "http://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+      "url": "http://www.yelp.com/biz/smoke-house-restaurant-perryton",
+      "categories": [
+        [
+          "Breakfast & Brunch",
+          "breakfast_brunch"
+        ],
+        [
+          "American (Traditional)",
+          "tradamerican"
+        ],
+        [
+          "Mexican",
+          "mexican"
+        ]
+      ],
+      "phone": "8064354863",
+      "snippet_text": "The price is right for a burger and fries.  The rest of the menu is good as well.  They do need to learn what a club sandwich is and if you are a club...",
+      "image_url": "http://s3-media1.fl.yelpcdn.com/bphoto/9qsR3Cb88qtxH_oFMxkkvw/ms.jpg",
+      "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/IXXERphgL3a8AHaMEOdvBA/ms.jpg",
+      "display_phone": "+1-806-435-4863",
+      "rating_img_url_large": "http://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+      "id": "smoke-house-restaurant-perryton",
+      "is_closed": false,
+      "location": {
+        "city": "Perryton",
+        "display_address": [
+          "210 SE 24th Ave",
+          "Perryton, TX 79070"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "79070",
+        "country_code": "US",
+        "address": [
+          "210 SE 24th Ave"
+        ],
+        "coordinate": {
+          "latitude": 36.3769179582596,
+          "longitude": -100.799657776952
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": false,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/margaritas-steakhouse-perryton",
+      "rating_img_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 3,
+      "name": "Margarita's Steakhouse",
+      "rating_img_url_small": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/margaritas-steakhouse-perryton",
+      "categories": [
+        [
+          "Restaurants",
+          "restaurants"
+        ]
+      ],
+      "menu_date_updated": 1442015440,
+      "phone": "8066488800",
+      "snippet_text": "I Went in with a group of 17 oilfield workers. The servers did really good! They brought pictures of drink instead of refilling cups 2 at a time, smart....",
+      "image_url": "http://s3-media3.fl.yelpcdn.com/bphoto/OKkka54H5ZR6ejrMZMKZVA/ms.jpg",
+      "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/zCuLQ75b18tXs3DMmzwQBQ/ms.jpg",
+      "display_phone": "+1-806-648-8800",
+      "rating_img_url_large": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "menu_provider": "single_platform",
+      "id": "margaritas-steakhouse-perryton",
+      "is_closed": false,
+      "location": {
+        "city": "Perryton",
+        "display_address": [
+          "3507 S Main",
+          "Perryton, TX 79070"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "79070",
+        "country_code": "US",
+        "address": [
+          "3507 S Main"
+        ],
+        "coordinate": {
+          "latitude": 36.368432790041,
+          "longitude": -100.802524387836
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": false,
+      "rating": 4.5,
+      "mobile_url": "http://m.yelp.com/biz/la-casita-perryton",
+      "rating_img_url": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+      "review_count": 3,
+      "name": "La Casita",
+      "rating_img_url_small": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+      "url": "http://www.yelp.com/biz/la-casita-perryton",
+      "categories": [
+        [
+          "Mexican",
+          "mexican"
+        ]
+      ],
+      "phone": "8064354445",
+      "snippet_text": "How is it possible that no one back home has rated this?! Well, I know how it is possible, but still... Anyway, as is par for the course, I can't/don't rate...",
+      "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/xLpBKnXn4T5fh6FvAow1GA/ms.jpg",
+      "display_phone": "+1-806-435-4445",
+      "rating_img_url_large": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+      "id": "la-casita-perryton",
+      "is_closed": false,
+      "location": {
+        "city": "Perryton",
+        "display_address": [
+          "222 SW 3rd Ave",
+          "Perryton, TX 79070"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "79070",
+        "country_code": "US",
+        "address": [
+          "222 SW 3rd Ave"
+        ],
+        "coordinate": {
+          "latitude": 36.3974951952696,
+          "longitude": -100.80576248467
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": false,
+      "rating": 3.5,
+      "mobile_url": "http://m.yelp.com/biz/moneys-bar-b-que-and-steak-house-perryton",
+      "rating_img_url": "http://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+      "review_count": 4,
+      "name": "Money's Bar-B-Que and Steak House",
+      "rating_img_url_small": "http://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+      "url": "http://www.yelp.com/biz/moneys-bar-b-que-and-steak-house-perryton",
+      "categories": [
+        [
+          "Barbeque",
+          "bbq"
+        ]
+      ],
+      "phone": "8064353945",
+      "snippet_text": "I've been here a couple times and it's a nice place. They have good burgers (money burger is yum) and steaks. If you come on the weekend you can enjoy prime...",
+      "image_url": "http://s3-media4.fl.yelpcdn.com/bphoto/fho7GlN-YscLyzq5043uBg/ms.jpg",
+      "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/PiBe6j791avgbZVfdZZODA/ms.jpg",
+      "display_phone": "+1-806-435-3945",
+      "rating_img_url_large": "http://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+      "id": "moneys-bar-b-que-and-steak-house-perryton",
+      "is_closed": false,
+      "location": {
+        "city": "Perryton",
+        "display_address": [
+          "14 SE 3rd Ave",
+          "Perryton, TX 79070"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "79070",
+        "country_code": "US",
+        "address": [
+          "14 SE 3rd Ave"
+        ],
+        "coordinate": {
+          "latitude": 36.3974348455667,
+          "longitude": -100.802396312356
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 3.5,
+      "mobile_url": "http://m.yelp.com/biz/baby-butts-bbq-perryton",
+      "rating_img_url": "http://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+      "review_count": 4,
+      "name": "Baby Butt's BBQ",
+      "rating_img_url_small": "http://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+      "url": "http://www.yelp.com/biz/baby-butts-bbq-perryton",
+      "categories": [
+        [
+          "Barbeque",
+          "bbq"
+        ]
+      ],
+      "menu_date_updated": 1442200806,
+      "phone": "8066481696",
+      "snippet_text": "First and foremost, BabyButts is Amazing!!! Pulled pork and brisket are incredible! And David's sauce is awesome! I can't wait to try the rest of the menu!...",
+      "image_url": "http://s3-media4.fl.yelpcdn.com/bphoto/n3FlEfdi-TlLDWwPZIlMLQ/ms.jpg",
+      "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/ldjt-vQ-0U4kntq-i6pjGA/ms.jpg",
+      "display_phone": "+1-806-648-1696",
+      "rating_img_url_large": "http://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+      "menu_provider": "single_platform",
+      "id": "baby-butts-bbq-perryton",
+      "is_closed": false,
+      "location": {
+        "city": "Perryton",
+        "display_address": [
+          "101 S Ash St",
+          "Perryton, TX 79070"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "79070",
+        "country_code": "US",
+        "address": [
+          "101 S Ash St"
+        ],
+        "coordinate": {
+          "latitude": 36.399412304163,
+          "longitude": -100.801314041018
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 3,
+      "mobile_url": "http://m.yelp.com/biz/chihuas-mexican-restaurant-bar-and-grill-perryton",
+      "rating_img_url": "http://s3-media3.fl.yelpcdn.com/assets/2/www/img/34bc8086841c/ico/stars/v1/stars_3.png",
+      "review_count": 5,
+      "name": "Chihua's Mexican Restaurant Bar & Grill",
+      "rating_img_url_small": "http://s3-media3.fl.yelpcdn.com/assets/2/www/img/902abeed0983/ico/stars/v1/stars_small_3.png",
+      "url": "http://www.yelp.com/biz/chihuas-mexican-restaurant-bar-and-grill-perryton",
+      "categories": [
+        [
+          "Mexican",
+          "mexican"
+        ]
+      ],
+      "phone": "8066484111",
+      "snippet_text": "Best Mexican food in town. Usually get the tacos al pastor or tacos pescado. Also try shrimpy fish, spicy shrimp  and Carnitas! Watch out for the queso and...",
+      "image_url": "http://s3-media2.fl.yelpcdn.com/bphoto/jLzi027xxdiKVlBnesIX5g/ms.jpg",
+      "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/PiBe6j791avgbZVfdZZODA/ms.jpg",
+      "display_phone": "+1-806-648-4111",
+      "rating_img_url_large": "http://s3-media1.fl.yelpcdn.com/assets/2/www/img/e8b5b79d37ed/ico/stars/v1/stars_large_3.png",
+      "id": "chihuas-mexican-restaurant-bar-and-grill-perryton",
+      "is_closed": false,
+      "location": {
+        "city": "Perryton",
+        "display_address": [
+          "1518 S Main St",
+          "Perryton, TX 79070"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "79070",
+        "country_code": "US",
+        "address": [
+          "1518 S Main St"
+        ],
+        "coordinate": {
+          "latitude": 36.3850403577089,
+          "longitude": -100.802661851048
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": false,
+      "rating": 3,
+      "mobile_url": "http://m.yelp.com/biz/dixie-dog-drive-in-perryton",
+      "rating_img_url": "http://s3-media3.fl.yelpcdn.com/assets/2/www/img/34bc8086841c/ico/stars/v1/stars_3.png",
+      "review_count": 4,
+      "name": "Dixie Dog Drive-In",
+      "rating_img_url_small": "http://s3-media3.fl.yelpcdn.com/assets/2/www/img/902abeed0983/ico/stars/v1/stars_small_3.png",
+      "url": "http://www.yelp.com/biz/dixie-dog-drive-in-perryton",
+      "categories": [
+        [
+          "Barbeque",
+          "bbq"
+        ],
+        [
+          "Burgers",
+          "burgers"
+        ]
+      ],
+      "phone": "8064353512",
+      "snippet_text": "Legendary greasy spoon spot\nThis place is not healthy but it is pretty dang good\nThe Dixie burger is worth the time and money\nThe shakes and malts are...",
+      "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/oFfAiX2xBy1zqYikHsmr_A/ms.jpg",
+      "display_phone": "+1-806-435-3512",
+      "rating_img_url_large": "http://s3-media1.fl.yelpcdn.com/assets/2/www/img/e8b5b79d37ed/ico/stars/v1/stars_large_3.png",
+      "id": "dixie-dog-drive-in-perryton",
+      "is_closed": false,
+      "location": {
+        "city": "Perryton",
+        "display_address": [
+          "1610 S Main St",
+          "Perryton, TX 79070"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "79070",
+        "country_code": "US",
+        "address": [
+          "1610 S Main St"
+        ],
+        "coordinate": {
+          "latitude": 36.3837842,
+          "longitude": -100.8027667
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": false,
+      "rating": 3.5,
+      "mobile_url": "http://m.yelp.com/biz/china-buffet-perryton",
+      "rating_img_url": "http://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+      "review_count": 2,
+      "name": "China Buffet",
+      "rating_img_url_small": "http://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+      "url": "http://www.yelp.com/biz/china-buffet-perryton",
+      "categories": [
+        [
+          "Chinese",
+          "chinese"
+        ],
+        [
+          "Buffets",
+          "buffets"
+        ]
+      ],
+      "phone": "8064342828",
+      "snippet_text": "Clean!\n\nThis place will not win you over with sophisticated cuisine. \n\nBut, it is clean a clean place with good food and that means a lot to me. Thus four...",
+      "image_url": "http://s3-media4.fl.yelpcdn.com/bphoto/cCleQzcaMQfthMxtpwJ6Nw/ms.jpg",
+      "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/oFfAiX2xBy1zqYikHsmr_A/ms.jpg",
+      "display_phone": "+1-806-434-2828",
+      "rating_img_url_large": "http://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+      "id": "china-buffet-perryton",
+      "is_closed": false,
+      "location": {
+        "city": "Perryton",
+        "display_address": [
+          "2802 S Main St",
+          "Perryton, TX 79070"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "79070",
+        "country_code": "US",
+        "address": [
+          "2802 S Main St"
+        ],
+        "coordinate": {
+          "latitude": 36.3724556,
+          "longitude": -100.8027115
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": false,
+      "rating": 2,
+      "mobile_url": "http://m.yelp.com/biz/wolf-creek-park-lake-fryer-perryton",
+      "rating_img_url": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/b561c24f8341/ico/stars/v1/stars_2.png",
+      "review_count": 1,
+      "name": "Wolf Creek Park-Lake Fryer",
+      "rating_img_url_small": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/a6210baec261/ico/stars/v1/stars_small_2.png",
+      "url": "http://www.yelp.com/biz/wolf-creek-park-lake-fryer-perryton",
+      "categories": [
+        [
+          "Restaurants",
+          "restaurants"
+        ],
+        [
+          "Parks",
+          "parks"
+        ]
+      ],
+      "phone": "8064354559",
+      "snippet_text": "The only reason this got any stars was because of the lake. The bath house is like jail...you push a button for the water to come on and you don't get to...",
+      "image_url": "http://s3-media4.fl.yelpcdn.com/bphoto/JiHBCRX35U1fSZWXW7HuMA/ms.jpg",
+      "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/assets/srv0/yelp_styleguide/cc4afe21892e/assets/img/default_avatars/user_medium_square.png",
+      "display_phone": "+1-806-435-4559",
+      "rating_img_url_large": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c00926ee5dcb/ico/stars/v1/stars_large_2.png",
+      "id": "wolf-creek-park-lake-fryer-perryton",
+      "is_closed": false,
+      "location": {
+        "city": "Perryton",
+        "display_address": [
+          "13560 County Rd U",
+          "Perryton, TX 79070"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "79070",
+        "country_code": "US",
+        "address": [
+          "13560 County Rd U"
+        ],
+        "coordinate": {
+          "latitude": 36.2272949,
+          "longitude": -100.6464996
+        },
+        "state_code": "TX"
+      }
+    },
+    {
+      "is_claimed": true,
+      "rating": 4,
+      "mobile_url": "http://m.yelp.com/biz/pizza-hut-perryton-2",
+      "rating_img_url": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+      "review_count": 1,
+      "name": "Pizza Hut",
+      "rating_img_url_small": "http://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+      "url": "http://www.yelp.com/biz/pizza-hut-perryton-2",
+      "categories": [
+        [
+          "Italian",
+          "italian"
+        ],
+        [
+          "Pizza",
+          "pizza"
+        ],
+        [
+          "Chicken Wings",
+          "chicken_wings"
+        ]
+      ],
+      "phone": "8064354061",
+      "snippet_text": "Pizzas were great & order was accurate.  Only complaint is no online ordering & they don't always honor Pizza Hut's national specials.",
+      "image_url": "http://s3-media2.fl.yelpcdn.com/bphoto/DSvdHbvzOxUo5YIOyrq79A/ms.jpg",
+      "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/PGYoB47X7iQ5X2x0IT2WEg/ms.jpg",
+      "display_phone": "+1-806-435-4061",
+      "rating_img_url_large": "http://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+      "id": "pizza-hut-perryton-2",
+      "is_closed": false,
+      "location": {
+        "city": "Perryton",
+        "display_address": [
+          "1902 S. Main Street",
+          "Perryton, TX 79070"
+        ],
+        "geo_accuracy": 8,
+        "postal_code": "79070",
+        "country_code": "US",
+        "address": [
+          "1902 S. Main Street"
+        ],
+        "coordinate": {
+          "latitude": 36.381218,
+          "longitude": -100.8027115
+        },
+        "state_code": "TX"
+      }
+    }
+  ]
+}
