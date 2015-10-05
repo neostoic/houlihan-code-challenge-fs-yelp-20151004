@@ -1,5 +1,7 @@
 'use strict'
 
+var conf = require('../config/config.js');
+
 var request = require('co-request');
 var url = require('url');
 
@@ -9,24 +11,32 @@ var verror = require('verror');
 var counties = require('../config/counties.js');
 var FSV = require('../models/foursquareVenue.js');
 
-module.exports.userlessVenueSearch = function* (county) {
-  console.log('START userlessVenueSearch');
-  // Foursquare food category
-  // "id": "4d4b7105d754a06374d81259",
-  // "name": "Food",
-  // "pluralName": "Food",
-  // "shortName": "Food",
+var fsc = module.exports;
 
+
+
+fsc.getAll = function* () {
+  //Use _.partial to turn FSV.bind into a thunk.
+  //Pass in {} as the first arg of FSV.find so that it returns all docs
+  return yield _.partial(FSV.find.bind(FSV), {});
+};
+
+
+fsc.userlessVenueSearch = function* (county) {
   var countyCoords = counties.getCoordinates(county);
+  var completeResults = yield venueSearchArea(countyCoords.swLat, countyCoords.swLng, countyCoords.neLat, countyCoords.neLng);
+  return completeResults
+};
 
-  // Shermain county, Texas
-  // sw lat   , sw lng    | ne lat  , ne lng
-  // 36.055131,-102.163303|36.500684,-101.623466
-  // var sw = '36.055131,-102.163303'
-  // var ne = '36.500684,-101.623466'
 
-  var sw = countyCoords.swLat + ',' + countyCoords.swLng
-  var ne = countyCoords.neLat + ',' + countyCoords.neLng
+function* venueSearchArea (swLat, swLng, neLat, neLng) {
+
+  var ne = neLat + ',' + neLng;
+  var sw = swLat + ',' + swLng;
+
+  console.log('ne: ' + ne);
+  console.log('sw: ' + sw);
+
 
   var reqUrl = url.format({
     protocol: 'https',
@@ -47,12 +57,7 @@ module.exports.userlessVenueSearch = function* (county) {
     }
   });
 
-  console.log('userlessVenueSearch reqUrl is:');
-  console.log(reqUrl);
-
   var response = yield request(reqUrl);
-  // console.log('response');
-  // console.log(response);
 
   try{
     var resBody = JSON.parse(response.body);
@@ -60,12 +65,19 @@ module.exports.userlessVenueSearch = function* (county) {
     return new verror(e, 'Error parsing foursquare response body');
   }
 
-  var mappedYield = yield resBody.response.venues.map(createFoursquareVenue);
+  if (resBody.response.venues.length >= 50) {
 
-  console.log('mappedYield');
-  console.log(mappedYield);
+    var halfLng = ((neLng - swLng) / 2);
+    yield venueSearchArea(swLat, swLng, neLat, (neLng - halfLng));
+    yield venueSearchArea(swLat, (swLng + halfLng), neLat, neLng);
+    return;
 
-  return mappedYield;
+  } else {
+
+    yield resBody.response.venues.map(createFoursquareVenue);
+    return;
+
+  }
 
 };
 
@@ -74,61 +86,11 @@ module.exports.userlessVenueSearch = function* (county) {
 function* createFoursquareVenue (foursquareApiVenue) {
 
     var newFsVenue = new FSV();
-
     _.assign(newFsVenue, foursquareApiVenue);
-
     newFsVenue.foursquareVenueId = foursquareApiVenue.id;
-
     return yield _.partial(newFsVenue.save.bind(newFsVenue));
 
 }
-
-
-// function createFoursquareVenue_promise (foursquareApiVenue) {
-//   console.log('START createFoursquareVenue_promise');
-//   return new Promise(function (resolve, reject) {
-//     console.log('START createFoursquareVenue_promise CB');
-
-//     var newFsVenue = new FSV();
-
-//     _.assign(newFsVenue, foursquareApiVenue);
-
-//     newFsVenue.foursquareVenueId = foursquareApiVenue.id;
-
-//     newFsVenue.save(function (err, doc) {
-//       if (err) {
-//         reject(err);
-//       } else {
-//         resolve (doc);
-//       }
-//     });
-
-//   });
-
-// }
-
-module.exports.getAll = function* () {
-  //Use _.partial to turn FSV.bind into a thunk.
-  //Pass in {} as the first arg of FSV.find so that it returns all docs
-  return yield _.partial(FSV.find.bind(FSV), {});
-};
-
-
-
-// module.exports.getAll_promise = function () {
-//   return new Promise(function (resolve, reject) {
-
-//     FSV.find({}, function (err, docs) {
-//       if (err) {
-//         reject(err);
-//       } else {
-//         resolve(docs);
-//       }
-//     });
-
-//   });
-// };
-
 
 
 

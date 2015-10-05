@@ -4,10 +4,6 @@ var User = require('../models/userModel.js');
 
 
 
-
-
-
-
 module.exports.findOrUpdateUser = function (profile, accessToken) {
   return new Promise(function (resolve, reject){
 
@@ -23,15 +19,12 @@ module.exports.findOrUpdateUser = function (profile, accessToken) {
     updatedDoc.emails = [];
     updatedDoc.emails.push(profile.emails[0]);
 
-
     User.findOneAndUpdate({foursquareId: profile.id}, updatedDoc, function (err, doc){
-
       if (err) {
         reject(err);
       } else {
         resolve(doc);
       }
-
     });
 
   });
@@ -55,15 +48,11 @@ module.exports.createUser = function (profile, accessToken) {
     newUser.emails.push(profile.emails[0]);
 
     newUser.save(function (err, doc){
-      // console.log('START newUser.save CB.  doc is:');
-      // console.log(doc);
       if (err) {
-        // console.log('err');
-        // console.log(err);
         reject(err);
+      } else {
+        resolve(doc);
       }
-      //??Resolve with newUser or doc??does doc even get passed to the .save CB??
-      resolve(doc);
     });
 
   });

@@ -26,8 +26,7 @@ passport.deserializeUser(function (sessionUserId, done){
 
 
 });
-console.log('foursquare.oauthRedirectUrl');
-console.log(foursquare.oauthRedirectUrl);
+
 
 passport.use(new FoursqaureStrategy({
     clientID: conf.foursquare.clientId,
