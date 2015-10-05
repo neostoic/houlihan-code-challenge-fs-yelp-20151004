@@ -1,0 +1,161 @@
+[
+  {
+    "yelpAddr": "210 SE 24th Ave",
+    "fsAddr": "210 SE 24th Ave",
+    "addressComparison": {
+      "dice": 1,
+      "levenstein": 0,
+      "hamming": 0,
+      "jaccard": 0,
+      "jaro": 1,
+      "mra": {
+        "minimum": 3,
+        "similarity": 6,
+        "codex": [
+          "STHV",
+          "STHV"
+        ],
+        "match": true
+      },
+      "tversky": 1
+    }
+  },
+  {
+    "yelpAddr": "3507 S Main St",
+    "fsAddr": "3507 S Main",
+    "addressComparison": {
+      "dice": 0.8888888888888888,
+      "levenstein": 3,
+      "hamming": null,
+      "jaccard": 0.09090909090909094,
+      "jaro": 0.9571428571428571,
+      "mra": {
+        "minimum": 3,
+        "similarity": 4,
+        "codex": [
+          "SMNST",
+          "SMN"
+        ],
+        "match": true
+      },
+      "tversky": 0.9090909090909091
+    }
+  },
+  {
+    "yelpAddr": "222 SW 3rd Ave",
+    "fsAddr": "222 SW 3rd Ave",
+    "addressComparison": {
+      "dice": 1,
+      "levenstein": 0,
+      "hamming": 0,
+      "jaccard": 0,
+      "jaro": 1,
+      "mra": {
+        "minimum": 3,
+        "similarity": 6,
+        "codex": [
+          "SWRDV",
+          "SWRDV"
+        ],
+        "match": true
+      },
+      "tversky": 1
+    }
+  },
+  {
+    "yelpAddr": "14 SE 3rd Ave",
+    "fsAddr": "14 SE 3rd Ave",
+    "addressComparison": {
+      "dice": 1,
+      "levenstein": 0,
+      "hamming": 0,
+      "jaccard": 0,
+      "jaro": 1,
+      "mra": {
+        "minimum": 3,
+        "similarity": 6,
+        "codex": [
+          "SRDV",
+          "SRDV"
+        ],
+        "match": true
+      },
+      "tversky": 1
+    }
+  },
+  {
+    "fsAddr": "1518 S Main St",
+    "addressComparison": {
+      "dice": null,
+      "levenstein": null,
+      "hamming": null,
+      "jaccard": null,
+      "jaro": null,
+      "mra": null,
+      "tversky": null
+    }
+  },
+  {
+    "yelpAddr": "1610 S Main St",
+    "fsAddr": "1610 S Main St",
+    "addressComparison": {
+      "dice": 1,
+      "levenstein": 0,
+      "hamming": 0,
+      "jaccard": 0,
+      "jaro": 1,
+      "mra": {
+        "minimum": 3,
+        "similarity": 6,
+        "codex": [
+          "SMNST",
+          "SMNST"
+        ],
+        "match": true
+      },
+      "tversky": 1
+    }
+  },
+  {
+    "yelpAddr": "2802 S Main St",
+    "fsAddr": "2802 S Main St",
+    "addressComparison": {
+      "dice": 1,
+      "levenstein": 0,
+      "hamming": 0,
+      "jaccard": 0,
+      "jaro": 1,
+      "mra": {
+        "minimum": 3,
+        "similarity": 6,
+        "codex": [
+          "SMNST",
+          "SMNST"
+        ],
+        "match": true
+      },
+      "tversky": 1
+    }
+  },
+  {
+    "yelpAddr": "1902 S Main St",
+    "fsAddr": "1902 S. Main Street",
+    "addressComparison": {
+      "dice": 0.72,
+      "levenstein": 5,
+      "hamming": null,
+      "jaccard": 0.2142857142857143,
+      "jaro": 0.9473684210526316,
+      "mra": {
+        "minimum": 3,
+        "similarity": 4,
+        "codex": [
+          "SMNST",
+          "SMNTRT"
+        ],
+        "match": true
+      },
+      "tversky": 0.7857142857142857
+    }
+  }
+]

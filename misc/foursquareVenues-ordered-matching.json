@@ -1,0 +1,168 @@
+[
+  {
+    "_id": "5611c47471b1ecf16642c7cf",
+    "foursquareVenueId": "4e6637812271573ad9364590",
+    "name": "Smokehouse",
+    "__v": 0,
+    "location": {
+      "address": "210 SE 24th Ave",
+      "lat": 36.37651610800932,
+      "lng": -100.80120335183169,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "210 SE 24th Ave",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7b0",
+    "foursquareVenueId": "4c27e124d26eb713c52314d1",
+    "name": "Margarita's Steakhouse",
+    "__v": 0,
+    "location": {
+      "address": "3507 S Main St",
+      "lat": 36.364521,
+      "lng": -100.801911,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "3507 S Main St",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7bb",
+    "foursquareVenueId": "4e8721aff5b9caaae4cc27d8",
+    "name": "La Casita Restaurant",
+    "__v": 0,
+    "location": {
+      "address": "222 SW 3rd Ave",
+      "lat": 36.397640228271484,
+      "lng": -100.80655670166016,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "222 SW 3rd Ave",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7c5",
+    "foursquareVenueId": "4c27e0bad26eb713b82314d1",
+    "name": "Money's  Bar-B-Que & Steakhouse",
+    "__v": 0,
+    "location": {
+      "address": "14 SE 3rd Ave",
+      "lat": 36.397454,
+      "lng": -100.801947,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "14 SE 3rd Ave",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7c9",
+    "foursquareVenueId": "4d06c51b7d9ba35d06ec7123",
+    "name": "Chihua's",
+    "__v": 0,
+    "location": {
+      "lat": 36.384769,
+      "lng": -100.802944,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7b5",
+    "foursquareVenueId": "4c8296fde602b1f779fb9d7a",
+    "name": "Dixie Dog",
+    "__v": 0,
+    "location": {
+      "address": "1610 S Main St",
+      "lat": 36.38372762,
+      "lng": -100.803183,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "1610 S Main St",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7d1",
+    "foursquareVenueId": "4d2cf54e79bc721e3431e7ee",
+    "name": "China Buffet",
+    "__v": 0,
+    "location": {
+      "address": "2802 S Main St",
+      "lat": 36.37268964628203,
+      "lng": -100.80284510966239,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "2802 S Main St",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7b8",
+    "foursquareVenueId": "4c60007e3a3703bbbc19e406",
+    "name": "Pizza Hut",
+    "__v": 0,
+    "location": {
+      "address": "1902 S Main St",
+      "lat": 36.38117121,
+      "lng": -100.8031884,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "1902 S Main St",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  }
+]

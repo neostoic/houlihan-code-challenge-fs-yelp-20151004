@@ -44,3 +44,32 @@ Cities and places in Ochiltree County, TX:  Booker, Perryton
 bounds=sw_latitude,sw_longitude|ne_latitude,ne_longitude
 
 bounds=36.056536,-101.085745|36.49994,-100.545979
+
+
+
+
+
+
+
+
+
+
+
+
+baby butt's bbq
+
+In Yelp results but not in FS results
+
+
+
+
+Yelp: china-buffet-perryton
+Foursquare:  China Buffet and Taste of China
+
+
+Wolf Creek Park-Lake Fryer
+
+In Yelp results but not in FS results
+
+
+

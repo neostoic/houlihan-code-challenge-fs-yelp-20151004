@@ -1,0 +1,325 @@
+{
+  "addresses": [
+    {
+      "yelpAddr": "210 SE 24th Ave",
+      "fsAddr": "210 SE 24th Ave",
+      "addressComparison": {
+        "dice": 1,
+        "levenstein": 0,
+        "hamming": 0,
+        "jaccard": 0,
+        "jaro": 1,
+        "mra": {
+          "minimum": 3,
+          "similarity": 6,
+          "codex": [
+            "STHV",
+            "STHV"
+          ],
+          "match": true
+        },
+        "tversky": 1
+      }
+    },
+    {
+      "yelpAddr": "3507 S Main St",
+      "fsAddr": "3507 S Main",
+      "addressComparison": {
+        "dice": 0.8888888888888888,
+        "levenstein": 3,
+        "hamming": null,
+        "jaccard": 0.09090909090909094,
+        "jaro": 0.9571428571428571,
+        "mra": {
+          "minimum": 3,
+          "similarity": 4,
+          "codex": [
+            "SMNST",
+            "SMN"
+          ],
+          "match": true
+        },
+        "tversky": 0.9090909090909091
+      }
+    },
+    {
+      "yelpAddr": "222 SW 3rd Ave",
+      "fsAddr": "222 SW 3rd Ave",
+      "addressComparison": {
+        "dice": 1,
+        "levenstein": 0,
+        "hamming": 0,
+        "jaccard": 0,
+        "jaro": 1,
+        "mra": {
+          "minimum": 3,
+          "similarity": 6,
+          "codex": [
+            "SWRDV",
+            "SWRDV"
+          ],
+          "match": true
+        },
+        "tversky": 1
+      }
+    },
+    {
+      "yelpAddr": "14 SE 3rd Ave",
+      "fsAddr": "14 SE 3rd Ave",
+      "addressComparison": {
+        "dice": 1,
+        "levenstein": 0,
+        "hamming": 0,
+        "jaccard": 0,
+        "jaro": 1,
+        "mra": {
+          "minimum": 3,
+          "similarity": 6,
+          "codex": [
+            "SRDV",
+            "SRDV"
+          ],
+          "match": true
+        },
+        "tversky": 1
+      }
+    },
+    {
+      "fsAddr": "1518 S Main St",
+      "addressComparison": {
+        "dice": null,
+        "levenstein": null,
+        "hamming": null,
+        "jaccard": null,
+        "jaro": null,
+        "mra": null,
+        "tversky": null
+      }
+    },
+    {
+      "yelpAddr": "1610 S Main St",
+      "fsAddr": "1610 S Main St",
+      "addressComparison": {
+        "dice": 1,
+        "levenstein": 0,
+        "hamming": 0,
+        "jaccard": 0,
+        "jaro": 1,
+        "mra": {
+          "minimum": 3,
+          "similarity": 6,
+          "codex": [
+            "SMNST",
+            "SMNST"
+          ],
+          "match": true
+        },
+        "tversky": 1
+      }
+    },
+    {
+      "yelpAddr": "2802 S Main St",
+      "fsAddr": "2802 S Main St",
+      "addressComparison": {
+        "dice": 1,
+        "levenstein": 0,
+        "hamming": 0,
+        "jaccard": 0,
+        "jaro": 1,
+        "mra": {
+          "minimum": 3,
+          "similarity": 6,
+          "codex": [
+            "SMNST",
+            "SMNST"
+          ],
+          "match": true
+        },
+        "tversky": 1
+      }
+    },
+    {
+      "yelpAddr": "1902 S Main St",
+      "fsAddr": "1902 S. Main Street",
+      "addressComparison": {
+        "dice": 0.72,
+        "levenstein": 5,
+        "hamming": null,
+        "jaccard": 0.2142857142857143,
+        "jaro": 0.9473684210526316,
+        "mra": {
+          "minimum": 3,
+          "similarity": 4,
+          "codex": [
+            "SMNST",
+            "SMNTRT"
+          ],
+          "match": true
+        },
+        "tversky": 0.7857142857142857
+      }
+    }
+  ],
+  "names": [
+    {
+      "yelpName": "Smokehouse",
+      "fsName": "Smoke House Restaurant",
+      "addressComparison": {
+        "dice": 0.6428571428571429,
+        "levenstein": 13,
+        "hamming": null,
+        "jaccard": 0.5333333333333333,
+        "jaro": 0.8618181818181818,
+        "mra": {
+          "minimum": 3,
+          "similarity": 3,
+          "codex": [
+            "SMKHS",
+            "SMKRNT"
+          ],
+          "match": true
+        },
+        "tversky": 0.4666666666666667
+      }
+    },
+    {
+      "yelpName": "Margarita's Steakhouse",
+      "fsName": "Margarita's Steakhouse",
+      "addressComparison": {
+        "dice": 1,
+        "levenstein": 0,
+        "hamming": 0,
+        "jaccard": 0,
+        "jaro": 1,
+        "mra": {
+          "minimum": 2,
+          "similarity": 6,
+          "codex": [
+            "MRGKHS",
+            "MRGKHS"
+          ],
+          "match": true
+        },
+        "tversky": 1
+      }
+    },
+    {
+      "yelpName": "La Casita Restaurant",
+      "fsName": "La Casita",
+      "addressComparison": {
+        "dice": 0.6086956521739131,
+        "levenstein": 11,
+        "hamming": null,
+        "jaccard": 0.41666666666666663,
+        "jaro": 0.89,
+        "mra": {
+          "minimum": 3,
+          "similarity": 4,
+          "codex": [
+            "LCSRNT",
+            "LCST"
+          ],
+          "match": true
+        },
+        "tversky": 0.5833333333333334
+      }
+    },
+    {
+      "yelpName": "Money's  Bar-B-Que & Steakhouse",
+      "fsName": "Money's Bar-B-Que and Steak House",
+      "addressComparison": {
+        "dice": 0.9056603773584906,
+        "levenstein": 6,
+        "hamming": null,
+        "jaccard": 0.19047619047619047,
+        "jaro": 0.9180267637442275,
+        "mra": {
+          "minimum": 2,
+          "similarity": 6,
+          "codex": [
+            "MNYKHS",
+            "MNYKHS"
+          ],
+          "match": true
+        },
+        "tversky": 0.8095238095238095
+      }
+    },
+    {
+      "yelpName": "Chihua's",
+      "fsName": "Chihua's Mexican Restaurant Bar & Grill",
+      "addressComparison": {
+        "dice": 0.358974358974359,
+        "levenstein": 31,
+        "hamming": null,
+        "jaccard": 0.65,
+        "jaro": 0.841025641025641,
+        "mra": null,
+        "tversky": 0.35
+      }
+    },
+    {
+      "yelpName": "Dixie Dog",
+      "fsName": "Dixie Dog Drive-In",
+      "addressComparison": {
+        "dice": 0.6363636363636364,
+        "levenstein": 9,
+        "hamming": null,
+        "jaccard": 0.41666666666666663,
+        "jaro": 0.9,
+        "mra": {
+          "minimum": 3,
+          "similarity": 3,
+          "codex": [
+            "DXDG",
+            "DXDRVN"
+          ],
+          "match": true
+        },
+        "tversky": 0.5833333333333334
+      }
+    },
+    {
+      "yelpName": "China Buffet",
+      "fsName": "China Buffet",
+      "addressComparison": {
+        "dice": 1,
+        "levenstein": 0,
+        "hamming": 0,
+        "jaccard": 0,
+        "jaro": 1,
+        "mra": {
+          "minimum": 2,
+          "similarity": 6,
+          "codex": [
+            "CHNBFT",
+            "CHNBFT"
+          ],
+          "match": true
+        },
+        "tversky": 1
+      }
+    },
+    {
+      "yelpName": "Pizza Hut",
+      "fsName": "Pizza Hut",
+      "addressComparison": {
+        "dice": 1,
+        "levenstein": 0,
+        "hamming": 0,
+        "jaccard": 0,
+        "jaro": 1,
+        "mra": {
+          "minimum": 3,
+          "similarity": 6,
+          "codex": [
+            "PZHT",
+            "PZHT"
+          ],
+          "match": true
+        },
+        "tversky": 1
+      }
+    }
+  ]
+}

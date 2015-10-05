@@ -19,5 +19,5 @@ var foursquareVenueSchema = new mongoose.Schema({
 }, {collection: 'foursquareVenue'});
 
 
-module.exports = mongoose.model('foursquareVenue', foursquareVenueSchema);
+module.exports = mongoose.model('FoursquareVenue', foursquareVenueSchema);
 

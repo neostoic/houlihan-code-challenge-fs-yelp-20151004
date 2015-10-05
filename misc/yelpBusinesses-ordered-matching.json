@@ -1,0 +1,212 @@
+[
+  {
+    "_id": "5611b52da430e0d55a81232a",
+    "yelpBusinessId": "smoke-house-restaurant-perryton",
+    "display_phone": "+1-806-435-4863",
+    "phone": "8064354863",
+    "name": "Smoke House Restaurant",
+    "rating": 3.5,
+    "__v": 0,
+    "location": {
+      "city": "Perryton",
+      "geo_accuracy": 8,
+      "postal_code": "79070",
+      "country_code": "US",
+      "address": "210 SE 24th Ave",
+      "state_code": "TX",
+      "coordinate": {
+        "latitude": 36.3769179582596,
+        "longitude": -100.799657776952
+      },
+      "neighborhoods": [],
+      "display_address": [
+        "210 SE 24th Ave",
+        "Perryton, TX 79070"
+      ]
+    }
+  },
+  {
+    "_id": "5611b52da430e0d55a81232b",
+    "yelpBusinessId": "margaritas-steakhouse-perryton",
+    "display_phone": "+1-806-648-8800",
+    "phone": "8066488800",
+    "name": "Margarita's Steakhouse",
+    "rating": 4,
+    "__v": 0,
+    "location": {
+      "city": "Perryton",
+      "geo_accuracy": 8,
+      "postal_code": "79070",
+      "country_code": "US",
+      "address": "3507 S Main",
+      "state_code": "TX",
+      "coordinate": {
+        "latitude": 36.368432790041,
+        "longitude": -100.802524387836
+      },
+      "neighborhoods": [],
+      "display_address": [
+        "3507 S Main",
+        "Perryton, TX 79070"
+      ]
+    }
+  },
+  {
+    "_id": "5611b52da430e0d55a81232c",
+    "yelpBusinessId": "la-casita-perryton",
+    "display_phone": "+1-806-435-4445",
+    "phone": "8064354445",
+    "name": "La Casita",
+    "rating": 4.5,
+    "__v": 0,
+    "location": {
+      "city": "Perryton",
+      "geo_accuracy": 8,
+      "postal_code": "79070",
+      "country_code": "US",
+      "address": "222 SW 3rd Ave",
+      "state_code": "TX",
+      "coordinate": {
+        "latitude": 36.3974951952696,
+        "longitude": -100.80576248467
+      },
+      "neighborhoods": [],
+      "display_address": [
+        "222 SW 3rd Ave",
+        "Perryton, TX 79070"
+      ]
+    }
+  },
+  {
+    "_id": "5611b52da430e0d55a81232d",
+    "yelpBusinessId": "moneys-bar-b-que-and-steak-house-perryton",
+    "display_phone": "+1-806-435-3945",
+    "phone": "8064353945",
+    "name": "Money's Bar-B-Que and Steak House",
+    "rating": 3.5,
+    "__v": 0,
+    "location": {
+      "city": "Perryton",
+      "geo_accuracy": 8,
+      "postal_code": "79070",
+      "country_code": "US",
+      "address": "14 SE 3rd Ave",
+      "state_code": "TX",
+      "coordinate": {
+        "latitude": 36.3974348455667,
+        "longitude": -100.802396312356
+      },
+      "neighborhoods": [],
+      "display_address": [
+        "14 SE 3rd Ave",
+        "Perryton, TX 79070"
+      ]
+    }
+  },
+
+  {
+    "_id": "5611b52da430e0d55a81232f",
+    "yelpBusinessId": "chihuas-mexican-restaurant-bar-and-grill-perryton",
+    "display_phone": "+1-806-648-4111",
+    "phone": "8066484111",
+    "name": "Chihua's Mexican Restaurant Bar & Grill",
+    "rating": 3,
+    "__v": 0,
+    "location": {
+      "city": "Perryton",
+      "geo_accuracy": 8,
+      "postal_code": "79070",
+      "country_code": "US",
+      "address": "1518 S Main St",
+      "state_code": "TX",
+      "coordinate": {
+        "latitude": 36.3850403577089,
+        "longitude": -100.802661851048
+      },
+      "neighborhoods": [],
+      "display_address": [
+        "1518 S Main St",
+        "Perryton, TX 79070"
+      ]
+    }
+  },
+  {
+    "_id": "5611b52da430e0d55a812330",
+    "yelpBusinessId": "dixie-dog-drive-in-perryton",
+    "display_phone": "+1-806-435-3512",
+    "phone": "8064353512",
+    "name": "Dixie Dog Drive-In",
+    "rating": 3,
+    "__v": 0,
+    "location": {
+      "city": "Perryton",
+      "geo_accuracy": 8,
+      "postal_code": "79070",
+      "country_code": "US",
+      "address": "1610 S Main St",
+      "state_code": "TX",
+      "coordinate": {
+        "latitude": 36.3837842,
+        "longitude": -100.8027667
+      },
+      "neighborhoods": [],
+      "display_address": [
+        "1610 S Main St",
+        "Perryton, TX 79070"
+      ]
+    }
+  },
+  {
+    "_id": "5611b52da430e0d55a812331",
+    "yelpBusinessId": "china-buffet-perryton",
+    "display_phone": "+1-806-434-2828",
+    "phone": "8064342828",
+    "name": "China Buffet",
+    "rating": 3.5,
+    "__v": 0,
+    "location": {
+      "city": "Perryton",
+      "geo_accuracy": 8,
+      "postal_code": "79070",
+      "country_code": "US",
+      "address": "2802 S Main St",
+      "state_code": "TX",
+      "coordinate": {
+        "latitude": 36.3724556,
+        "longitude": -100.8027115
+      },
+      "neighborhoods": [],
+      "display_address": [
+        "2802 S Main St",
+        "Perryton, TX 79070"
+      ]
+    }
+  },
+
+  {
+    "_id": "5611b52da430e0d55a812333",
+    "yelpBusinessId": "pizza-hut-perryton-2",
+    "display_phone": "+1-806-435-4061",
+    "phone": "8064354061",
+    "name": "Pizza Hut",
+    "rating": 4,
+    "__v": 0,
+    "location": {
+      "city": "Perryton",
+      "geo_accuracy": 8,
+      "postal_code": "79070",
+      "country_code": "US",
+      "address": "1902 S. Main Street",
+      "state_code": "TX",
+      "coordinate": {
+        "latitude": 36.381218,
+        "longitude": -100.8027115
+      },
+      "neighborhoods": [],
+      "display_address": [
+        "1902 S. Main Street",
+        "Perryton, TX 79070"
+      ]
+    }
+  }
+]

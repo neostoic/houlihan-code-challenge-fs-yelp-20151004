@@ -78,6 +78,9 @@ yc.getAll = function* () {
   return yield _.partial(YB.find.bind(YB), {});
 };
 
+yc.getOne = function* (id) {
+  return yield _.partial(YB.findById.bind(YB), {id: id});
+};
 
 
 function createYelpBusiness (yelpApiBusiness){

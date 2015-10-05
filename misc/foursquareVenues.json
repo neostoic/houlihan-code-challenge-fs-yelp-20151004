@@ -1,0 +1,717 @@
+[
+  {
+    "_id": "5611c47471b1ecf16642c7af",
+    "foursquareVenueId": "4c4bbb6d46240f47ff98b9f3",
+    "name": "SONIC Drive In",
+    "__v": 0,
+    "location": {
+      "address": "718 S Main St",
+      "lat": 36.39264142591811,
+      "lng": -100.80304895407069,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "718 S Main St",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7b0",
+    "foursquareVenueId": "4c27e124d26eb713c52314d1",
+    "name": "Margarita's Steakhouse",
+    "__v": 0,
+    "location": {
+      "address": "3507 S Main St",
+      "lat": 36.364521,
+      "lng": -100.801911,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "3507 S Main St",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7b1",
+    "foursquareVenueId": "52320a3a498e00785c48675d",
+    "name": "Dairy Queen",
+    "__v": 0,
+    "location": {
+      "lat": 36.38972238415001,
+      "lng": -100.80325279891922,
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "Perryton, TX",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7b2",
+    "foursquareVenueId": "4e7f6c2193ad5ce35fefe727",
+    "name": "The Bakery",
+    "__v": 0,
+    "location": {
+      "lat": 36.454389,
+      "lng": -100.551381,
+      "cc": "US",
+      "city": "Booker",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "Booker, TX",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7b3",
+    "foursquareVenueId": "4e4e3809bd4101d0d7a51c36",
+    "name": "Daylight Donuts",
+    "__v": 0,
+    "location": {
+      "address": "721 S Main St",
+      "lat": 36.393085,
+      "lng": -100.802664,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "721 S Main St",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7b4",
+    "foursquareVenueId": "4f32af6119836c91c7efb76a",
+    "name": "SUBWAY",
+    "__v": 0,
+    "location": {
+      "address": "1501 S Main St",
+      "lat": 36.39122,
+      "lng": -100.80128,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "1501 S Main St",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7b5",
+    "foursquareVenueId": "4c8296fde602b1f779fb9d7a",
+    "name": "Dixie Dog",
+    "__v": 0,
+    "location": {
+      "address": "1610 S Main St",
+      "lat": 36.38372762,
+      "lng": -100.803183,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "1610 S Main St",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7b6",
+    "foursquareVenueId": "4f320c5d19833175d60b5702",
+    "name": "Taste of China",
+    "__v": 0,
+    "location": {
+      "address": "1222 S Main St",
+      "lat": 36.387992,
+      "lng": -100.80272,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "1222 S Main St",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7b7",
+    "foursquareVenueId": "4f3256fa19836c91c7ce1044",
+    "name": "Tangs Restaurant",
+    "__v": 0,
+    "location": {
+      "address": "2802 S Main St",
+      "lat": 36.372108,
+      "lng": -100.80264,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "2802 S Main St",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7b8",
+    "foursquareVenueId": "4c60007e3a3703bbbc19e406",
+    "name": "Pizza Hut",
+    "__v": 0,
+    "location": {
+      "address": "1902 S Main St",
+      "lat": 36.38117121,
+      "lng": -100.8031884,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "1902 S Main St",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7b9",
+    "foursquareVenueId": "502abd94e4b0735c9d07cae7",
+    "name": "3 Sisters Frozen Yogurt",
+    "__v": 0,
+    "location": {
+      "lat": 36.39851013660998,
+      "lng": -100.80231621811546,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7ba",
+    "foursquareVenueId": "4c68293ae1da1b8df8699fc3",
+    "name": "The Little Bakery",
+    "__v": 0,
+    "location": {
+      "address": "1192 S. Main St",
+      "lat": 36.388269,
+      "lng": -100.802646,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "1192 S. Main St",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7bb",
+    "foursquareVenueId": "4e8721aff5b9caaae4cc27d8",
+    "name": "La Casita Restaurant",
+    "__v": 0,
+    "location": {
+      "address": "222 SW 3rd Ave",
+      "lat": 36.397640228271484,
+      "lng": -100.80655670166016,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "222 SW 3rd Ave",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7bc",
+    "foursquareVenueId": "4f32356319836c91c7c0daff",
+    "name": "Carniceria Flores",
+    "__v": 0,
+    "location": {
+      "address": "114 E Brillhart Ave",
+      "lat": 36.400974,
+      "lng": -100.800179,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "114 E Brillhart Ave",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7bd",
+    "foursquareVenueId": "51bb8696498eba02a481edbc",
+    "name": "Jimmy's Tacos",
+    "__v": 0,
+    "location": {
+      "lat": 36.388626,
+      "lng": -100.802925,
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "Perryton, TX",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7be",
+    "foursquareVenueId": "4f322c7819836c91c7bd6baf",
+    "name": "Taqueria El General",
+    "__v": 0,
+    "location": {
+      "address": "422 SW 1st Ave",
+      "lat": 36.3997,
+      "lng": -100.809111,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "422 SW 1st Ave",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7bf",
+    "foursquareVenueId": "4f32698819836c91c7d54af5",
+    "name": "KFC",
+    "__v": 0,
+    "location": {
+      "address": "1222 S Main St",
+      "lat": 36.387993,
+      "lng": -100.802645,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "1222 S Main St",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7c0",
+    "foursquareVenueId": "4d1e31c02eb1f04d9d95ddc1",
+    "name": "SUBWAY",
+    "__v": 0,
+    "location": {
+      "address": "2602 S Main St",
+      "lat": 36.37459978333333,
+      "lng": -100.80302228333333,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "2602 S Main St",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7c1",
+    "foursquareVenueId": "51096a9ce4b082fecce12816",
+    "name": "The Rib Joint",
+    "__v": 0,
+    "location": {
+      "address": "Main",
+      "lat": 36.38110457729845,
+      "lng": -100.8069771768839,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "Main",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7c2",
+    "foursquareVenueId": "4f44bb6b19836ed0019620f9",
+    "name": "Lone Star Grill",
+    "__v": 0,
+    "location": {
+      "address": "16 SE 15th Ave",
+      "lat": 36.38522,
+      "lng": -100.802601,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "16 SE 15th Ave",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7c3",
+    "foursquareVenueId": "4f32649b19836c91c7d3635a",
+    "name": "We Are Chicken",
+    "__v": 0,
+    "location": {
+      "address": "1122 S Main St",
+      "lat": 36.388997,
+      "lng": -100.802709,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "1122 S Main St",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7c4",
+    "foursquareVenueId": "51eae50d498e1d1fa108dd71",
+    "name": "Vasolotes",
+    "__v": 0,
+    "location": {
+      "lat": 36.389006,
+      "lng": -100.80298,
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "Perryton, TX",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7c5",
+    "foursquareVenueId": "4c27e0bad26eb713b82314d1",
+    "name": "Money's  Bar-B-Que & Steakhouse",
+    "__v": 0,
+    "location": {
+      "address": "14 SE 3rd Ave",
+      "lat": 36.397454,
+      "lng": -100.801947,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "14 SE 3rd Ave",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7c6",
+    "foursquareVenueId": "4f326c4519836c91c7d657cc",
+    "name": "Abuelas Grind",
+    "__v": 0,
+    "location": {
+      "address": "322 S Main St",
+      "lat": 36.397248,
+      "lng": -100.8027,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "322 S Main St",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7c7",
+    "foursquareVenueId": "4f44b01719836ed00195d670",
+    "name": "Hansen Dairy",
+    "__v": 0,
+    "location": {
+      "address": "12772 County Road 10",
+      "lat": 36.247349,
+      "lng": -100.910191,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "12772 County Road 10",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7c8",
+    "foursquareVenueId": "4c49cf69a3ace21eced91d3c",
+    "name": "McDonald's",
+    "__v": 0,
+    "location": {
+      "address": "1109 S Main St",
+      "lat": 36.38854265213013,
+      "lng": -100.80237150192261,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "1109 S Main St",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7c9",
+    "foursquareVenueId": "4d06c51b7d9ba35d06ec7123",
+    "name": "Chihua's",
+    "__v": 0,
+    "location": {
+      "lat": 36.384769,
+      "lng": -100.802944,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7ca",
+    "foursquareVenueId": "51ba9db1498e81f4736fdac4",
+    "name": "Hydro Snow",
+    "__v": 0,
+    "location": {
+      "lat": 36.385263,
+      "lng": -100.802884,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "15th Ave. & Main St.",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7cb",
+    "foursquareVenueId": "525fdc6d498ed64695c2567f",
+    "name": "Turtles Place",
+    "__v": 0,
+    "location": {
+      "lat": 36.39650829657472,
+      "lng": -100.80326381757222,
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "Perryton, TX",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7cc",
+    "foursquareVenueId": "4f4453ee19836ed001937cfe",
+    "name": "Longhorn Steakhouse",
+    "__v": 0,
+    "location": {
+      "address": "3507 S Main St",
+      "lat": 36.368431,
+      "lng": -100.802582,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "3507 S Main St",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7cd",
+    "foursquareVenueId": "4f3257e919836c91c7ce6c85",
+    "name": "La Amistad Restaurant",
+    "__v": 0,
+    "location": {
+      "address": "1214 S Main St",
+      "lat": 36.38807,
+      "lng": -100.802721,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "1214 S Main St",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7ce",
+    "foursquareVenueId": "4f321a6619836c91c7b62771",
+    "name": "Hardees",
+    "__v": 0,
+    "location": {
+      "address": "1902 S Main St",
+      "lat": 36.381386,
+      "lng": -100.802613,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "1902 S Main St",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7cf",
+    "foursquareVenueId": "4e6637812271573ad9364590",
+    "name": "Smokehouse",
+    "__v": 0,
+    "location": {
+      "address": "210 SE 24th Ave",
+      "lat": 36.37651610800932,
+      "lng": -100.80120335183169,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "210 SE 24th Ave",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7d0",
+    "foursquareVenueId": "4efa1e4fb63446a50b13b807",
+    "name": "Country Gorditas",
+    "__v": 0,
+    "location": {
+      "address": "825 E Brillhart Ave",
+      "lat": 36.4051196060312,
+      "lng": -100.79204198619836,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "825 E Brillhart Ave",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  },
+  {
+    "_id": "5611c47471b1ecf16642c7d1",
+    "foursquareVenueId": "4d2cf54e79bc721e3431e7ee",
+    "name": "China Buffet",
+    "__v": 0,
+    "location": {
+      "address": "2802 S Main St",
+      "lat": 36.37268964628203,
+      "lng": -100.80284510966239,
+      "postalCode": "79070",
+      "cc": "US",
+      "city": "Perryton",
+      "state": "TX",
+      "country": "United States",
+      "formattedAddress": [
+        "2802 S Main St",
+        "Perryton, TX 79070",
+        "United States"
+      ]
+    }
+  }
+]
