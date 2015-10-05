@@ -1,3 +1,6 @@
+'use strict'
+
+
 var conf = require('../config/config.js');
 
 var passport = require('koa-passport');

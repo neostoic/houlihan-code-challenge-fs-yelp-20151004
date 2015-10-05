@@ -1,3 +1,5 @@
+'use strict'
+
 var log = require('../utilities/logger.js');
 
 var path = require('path');

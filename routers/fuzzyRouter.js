@@ -1,3 +1,5 @@
+'use strict'
+
 var Router = require('koa-router');
 
 var fr = module.exports = new Router();

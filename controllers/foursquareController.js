@@ -1,3 +1,5 @@
+'use strict'
+
 var request = require('co-request');
 var url = require('url');
 

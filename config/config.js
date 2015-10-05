@@ -1,3 +1,5 @@
+'use strict'
+
 var log = require('../utilities/logger.js');
 
 conf = require('./config.json')[process.env.NODE_ENV];
