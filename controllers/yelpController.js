@@ -70,6 +70,14 @@ yc.mineYelpBusinesses = function (searchParams, cb){
 
 
 
+yc.getAll = function* () {
+  //Use _.partial to turn FSV.bind into a thunk.
+  //Pass in {} as the first arg of FSV.find so that it returns all docs
+  return yield _.partial(YB.find.bind(YB), {});
+};
+
+
+
 function createYelpBusiness (yelpApiBusiness){
   return new Promise(function (resolve, reject){
 
@@ -95,3 +103,5 @@ function createYelpBusiness (yelpApiBusiness){
 
   });
 }
+
+

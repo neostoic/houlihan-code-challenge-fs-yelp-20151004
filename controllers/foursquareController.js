@@ -79,7 +79,7 @@ function* createFoursquareVenue (foursquareApiVenue) {
 
     return yield _.partial(newFsVenue.save.bind(newFsVenue));
 
-};
+}
 
 
 // function createFoursquareVenue_promise (foursquareApiVenue) {
@@ -104,4 +104,29 @@ function* createFoursquareVenue (foursquareApiVenue) {
 //   });
 
 // }
+
+module.exports.getAll = function* () {
+  //Use _.partial to turn FSV.bind into a thunk.
+  //Pass in {} as the first arg of FSV.find so that it returns all docs
+  return yield _.partial(FSV.find.bind(FSV), {});
+};
+
+
+
+// module.exports.getAll_promise = function () {
+//   return new Promise(function (resolve, reject) {
+
+//     FSV.find({}, function (err, docs) {
+//       if (err) {
+//         reject(err);
+//       } else {
+//         resolve(docs);
+//       }
+//     });
+
+//   });
+// };
+
+
+
 
