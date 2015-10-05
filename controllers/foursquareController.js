@@ -1,7 +1,11 @@
 var request = require('co-request');
 var url = require('url');
 
+var _ = require('lodash');
+var verror = require('verror');
+
 var counties = require('../config/counties.js');
+var FSV = require('../models/foursquareVenue.js');
 
 module.exports.userlessVenueSearch = function* (county) {
   console.log('START userlessVenueSearch');
@@ -45,13 +49,59 @@ module.exports.userlessVenueSearch = function* (county) {
   console.log(reqUrl);
 
   var response = yield request(reqUrl);
-  console.log('response');
-  console.log(response);
+  // console.log('response');
+  // console.log(response);
 
   try{
-    return JSON.parse(response.body);
+    var resBody = JSON.parse(response.body);
   } catch (e) {
-    return e;
+    return new verror(e, 'Error parsing foursquare response body');
   }
 
+  var mappedYield = yield resBody.response.venues.map(createFoursquareVenue);
+
+  console.log('mappedYield');
+  console.log(mappedYield);
+
+  return mappedYield;
+
 };
+
+
+
+function* createFoursquareVenue (foursquareApiVenue) {
+
+    var newFsVenue = new FSV();
+
+    _.assign(newFsVenue, foursquareApiVenue);
+
+    newFsVenue.foursquareVenueId = foursquareApiVenue.id;
+
+    return yield _.partial(newFsVenue.save.bind(newFsVenue));
+
+};
+
+
+// function createFoursquareVenue_promise (foursquareApiVenue) {
+//   console.log('START createFoursquareVenue_promise');
+//   return new Promise(function (resolve, reject) {
+//     console.log('START createFoursquareVenue_promise CB');
+
+//     var newFsVenue = new FSV();
+
+//     _.assign(newFsVenue, foursquareApiVenue);
+
+//     newFsVenue.foursquareVenueId = foursquareApiVenue.id;
+
+//     newFsVenue.save(function (err, doc) {
+//       if (err) {
+//         reject(err);
+//       } else {
+//         resolve (doc);
+//       }
+//     });
+
+//   });
+
+// }
+
