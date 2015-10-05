@@ -26,24 +26,20 @@ passport.deserializeUser(function (sessionUserId, done){
 
 
 });
-
+console.log('foursquare.oauthRedirectUrl');
+console.log(foursquare.oauthRedirectUrl);
 
 passport.use(new FoursqaureStrategy({
     clientID: conf.foursquare.clientId,
     clientSecret: conf.foursquare.clientSecret,
-    callbackUrl: foursquare.oauthRedirectUrl
+    callbackURL: foursquare.oauthRedirectUrl
   },
   function (accessToken, refreshToken, profile, done) {
-
-    //Try of find and update the user
-
-    //If no user found, create one
-
 
     userCtrl.findOrUpdateUser(profile, accessToken)
     .then(function(user){
       if (!user) {
-        return userCtrl.createUser(profile);
+        return userCtrl.createUser(profile, accessToken);
       } else {
         return Promise.resolve(user);
       }

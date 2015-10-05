@@ -8,7 +8,7 @@ var User = require('../models/userModel.js');
 
 
 
-module.exports.findOrUpateUser = function (profile, accessToken) {
+module.exports.findOrUpdateUser = function (profile, accessToken) {
   return new Promise(function (resolve, reject){
 
     var updatedDoc = {
@@ -17,7 +17,7 @@ module.exports.findOrUpateUser = function (profile, accessToken) {
         familyName: profile.name.familyName,
         givenName: profile.name.givenName
       },
-      oauthAccessToken: accessToken
+      foursquareOauthAccessToken: accessToken
     };
     //!!Revisit:  This will overwrite the existing emails array.
     updatedDoc.emails = [];
@@ -36,12 +36,12 @@ module.exports.findOrUpateUser = function (profile, accessToken) {
 
   });
 
-}
+};
 
 
 
 
-module.exports.createUser = function (profile) {
+module.exports.createUser = function (profile, accessToken) {
   return new Promise(function (resolve, reject) {
 
     var newUser = new User();
@@ -51,7 +51,7 @@ module.exports.createUser = function (profile) {
       familyName: profile.name.familyName,
       givenName: profile.name.givenName
     };
-    newUser.oauthAccessToken = accessToken;
+    newUser.foursquareOauthAccessToken = accessToken;
     newUser.emails.push(profile.emails[0]);
 
     newUser.save(function (err, doc){

@@ -5,7 +5,7 @@ var mongoose = require('mongoose');
 
 var userSchema = mongoose.Schema({
   foursquareOauthAccessToken: String,
-  foursquareId: Number,
+  foursquareId: String,
   name: {
     familyName: String,
     givenName: String
