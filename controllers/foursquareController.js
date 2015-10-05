@@ -24,8 +24,8 @@ fsc.getAll = function* () {
 
 fsc.userlessVenueSearch = function* (county) {
   var countyCoords = counties.getCoordinates(county);
-  var completeResults = yield venueSearchArea(countyCoords.swLat, countyCoords.swLng, countyCoords.neLat, countyCoords.neLng);
-  return completeResults
+  yield venueSearchArea(countyCoords.swLat, countyCoords.swLng, countyCoords.neLat, countyCoords.neLng);
+  return 'Done mining foursquare';
 };
 
 
@@ -33,10 +33,6 @@ function* venueSearchArea (swLat, swLng, neLat, neLng) {
 
   var ne = neLat + ',' + neLng;
   var sw = swLat + ',' + swLng;
-
-  console.log('ne: ' + ne);
-  console.log('sw: ' + sw);
-
 
   var reqUrl = url.format({
     protocol: 'https',

@@ -16,16 +16,15 @@ var yr = module.exports = new Router();
 
 
 
-yr.get('/mine-businesses', function* (next){
-  console.log('START yelpRouter.js get to /mine-businesses');
+yr.get('/mine-yelp', function* (next){
 
   if(!counties.isValid(this.query.county)) {
     this.status = 400;
     this.body = 'You must specify a valid county'
   } else {
     //Use _.partial to turn this function into a thunk so that it plays nice with yield
-    console.log('RUNNNNN');
-    this.body = yield _.partial(yelpCtrl.mineYelpBusinesses, this.query.county);
+    yield _.partial(yelpCtrl.mineYelpBusinesses, this.query.county);
+    return this.body = 'Done mining yelp businesses';
   }
 
 });
